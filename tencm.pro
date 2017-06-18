@@ -1,4 +1,4 @@
-update=Tue 13 Jun 2017 11:51:15 AM EDT
+update=Sun 18 Jun 2017 02:19:22 PM EDT
 version=1
 last_client=kicad
 [pcbnew]
@@ -23,6 +23,8 @@ ModuleOutlineThickness=0.150000000000
 [cvpcb]
 version=1
 NetIExt=net
+[general]
+version=1
 [eeschema]
 version=1
 LibDir=
@@ -56,5 +58,16 @@ LibName26=opto
 LibName27=atmel
 LibName28=contrib
 LibName29=valves
-[general]
-version=1
+LibName30=custom_parts
+LibName31=/home/hexafraction/kicad/dllib/MF_Aesthetics
+LibName32=/home/hexafraction/kicad/dllib/MF_Connectors
+LibName33=/home/hexafraction/kicad/dllib/MF_Discrete_Semiconductor
+LibName34=/home/hexafraction/kicad/dllib/MF_Displays
+LibName35=/home/hexafraction/kicad/dllib/MF_Frequency_Control
+LibName36=/home/hexafraction/kicad/dllib/MF_IC_Analog
+LibName37=/home/hexafraction/kicad/dllib/MF_IC_Digital
+LibName38=/home/hexafraction/kicad/dllib/MF_IC_Power
+LibName39=/home/hexafraction/kicad/dllib/MF_LEDs
+LibName40=/home/hexafraction/kicad/dllib/MF_Passives
+LibName41=/home/hexafraction/kicad/dllib/MF_Sensors
+LibName42=/home/hexafraction/kicad/dllib/MF_Switches
