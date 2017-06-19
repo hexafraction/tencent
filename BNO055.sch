@@ -46,7 +46,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 5
+Sheet 4 6
 Title ""
 Date ""
 Rev ""
@@ -62,7 +62,7 @@ U 1 1 5947291C
 P 5150 3300
 F 0 "U1" H 5150 3350 60  0000 C CNN
 F 1 "BNO055" H 5150 3250 60  0000 C CNN
-F 2 "" H 5150 3300 60  0000 C CNN
+F 2 "customFootprints:BNO055-SOIC" H 5150 3300 60  0001 C CNN
 F 3 "" H 5150 3300 60  0000 C CNN
 	1    5150 3300
 	1    0    0    -1  
@@ -287,4 +287,20 @@ Wire Wire Line
 Connection ~ 3050 3400
 Text HLabel 3000 3400 0    60   Input ~ 0
 ~BOOT
+$Comp
+L C C11
+U 1 1 594C77D6
+P 4900 4400
+F 0 "C11" H 4925 4500 50  0000 L CNN
+F 1 "100n" H 4700 4300 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 4938 4250 50  0001 C CNN
+F 3 "MF-CAP-0603-0.1uF" H 4900 4400 50  0001 C CNN
+	1    4900 4400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4900 4250 4900 4150
+Wire Wire Line
+	4900 4550 4900 4700
+Connection ~ 4900 4700
 $EndSCHEMATC

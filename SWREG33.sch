@@ -46,7 +46,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 5
+Sheet 3 6
 Title ""
 Date ""
 Rev ""
@@ -58,17 +58,6 @@ Comment4 ""
 $EndDescr
 Text HLabel 2350 1500 0    60   Input ~ 0
 VIN
-$Comp
-L TS30013 SWREG3
-U 1 1 59474A4E
-P 3700 1800
-F 0 "SWREG3" H 3700 2200 60  0000 C CNN
-F 1 "TS30013-M033QFNR" H 3700 1200 60  0000 C CNN
-F 2 "customFootprints:QFN16_TS30013" H 3250 1850 60  0001 C CNN
-F 3 "" H 3250 1850 60  0000 C CNN
-	1    3700 1800
-	1    0    0    -1  
-$EndComp
 Text HLabel 2350 2000 0    60   Input ~ 0
 GND
 $Comp
@@ -218,4 +207,15 @@ Connection ~ 4950 2650
 Wire Wire Line
 	4150 2000 5350 2000
 Connection ~ 5350 2000
+$Comp
+L TS30013 SWREG3
+U 1 1 594976B2
+P 3700 1800
+F 0 "SWREG3" H 3700 2200 60  0000 C CNN
+F 1 "TS30013" H 3700 1100 60  0000 C CNN
+F 2 "customFootprints:QFN16_TS30013" H 3250 1850 60  0000 C CNN
+F 3 "" H 3250 1850 60  0000 C CNN
+	1    3700 1800
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

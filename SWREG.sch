@@ -46,7 +46,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 5
+Sheet 2 6
 Title ""
 Date ""
 Rev ""
@@ -218,4 +218,6 @@ Connection ~ 4950 2650
 Wire Wire Line
 	4150 2000 5350 2000
 Connection ~ 5350 2000
+Text Notes 3100 1250 0    60   ~ 0
+MANUALLY ADD VCC TO PIN 11 IN LAYOUT
 $EndSCHEMATC
